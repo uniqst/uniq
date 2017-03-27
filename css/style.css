@@ -56,10 +56,23 @@
 }
 
 .banner-text{
-    width: 300px;
+    position: absolute;
+    width: 270px;
 
 }
 
+
+.banner-logo{
+    text-align: center;
+
+}
+
+.banner-logo img{
+    margin: auto;
+    height: 270px;
+    text-align: center;
+
+}
 
 /*FORM*/
 .sub{

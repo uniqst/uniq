@@ -1,0 +1,8 @@
+.top-badge {
+    background-image: url("../img/top-b.png");
+    height: 150px;
+    background-size: cover;
+}
+
+.top-badge img{
+}

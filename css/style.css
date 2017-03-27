@@ -72,3 +72,10 @@
 .input-margin-submit{
 	margin-top: 15px;
 }
+
+/* TEAM */
+
+.team ul li{
+	list-style-type: none;
+	font-size: 19px;
+}

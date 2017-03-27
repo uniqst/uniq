@@ -10,7 +10,8 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
     .header ul li{
-        width: 135px;
+        background-color: #153b66;
+        width: 100%;
     }
 }
 

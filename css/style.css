@@ -1,8 +1,7 @@
-.top-badge {
-    background-image: url("../img/top-b.png");
+.header {
     height: 140px;
-    background-size: cover;
 }
 
-.top-badge img{
+.header .container{
+    max-width: 980px;
 }

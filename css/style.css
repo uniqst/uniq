@@ -19,11 +19,15 @@
 
 
 .header .navbar{
-    background-color: #134286;
+    background-color: #142b51;
+    height: 110px;
+    padding: 2px 0px;
 }
 
 .header .navbar-brand img{
-    height: 86px;
+    height: 94px;
+    position: relative;
+    bottom:8px;
 }
 
 .header .navbar-right a{
@@ -38,13 +42,22 @@
 
 .header ul li{
     display: inline-block;
-    width: 160px;
+    width: 146px;
 }
 
 
 .navbar-header{
 
     height: 92px;
+}
+
+.banner{
+    height: 400px;
+}
+
+.banner-text{
+    width: 300px;
+
 }
 
 

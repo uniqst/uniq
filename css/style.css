@@ -7,9 +7,11 @@
 
 }
 
-.header .navbar-right{
-    max-height: 140px;
-
+.header .navbar-right span{
+   text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
 }
 
 
@@ -21,8 +23,14 @@
     max-height: 80px;
 }
 
-.header .navbar-right img{
+.header .navbar-right a{
+
+   text-align: center;
+}
+
+.header .navbar-right a img{
     max-height: 60px;
+    
 }
 
 
@@ -31,6 +39,8 @@
     height: 92px;
 }
 
+
+/*FORM*/
 .sub{
 	width: 100%;
 }

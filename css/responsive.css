@@ -10,8 +10,29 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
     .header ul li{
-        background-color: #153b66;
+        background-color: #152f58;
         width: 100%;
+    }
+
+    .header ul{
+        margin-top: 0;
+    }
+
+    .header .navbar-brand img{
+        height: 74px;
+        position: relative;
+        bottom:8px;
+    }
+
+    .header .navbar{
+        background-color: #142b51;
+        height: 90px;
+        padding: 2px 0px;
+    }
+
+    .navbar-header{
+
+        height: 86px;
     }
 }
 

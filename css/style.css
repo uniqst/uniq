@@ -14,9 +14,6 @@ html{
     color: #fff;
 }
 
-.container,.container-fluid{
-    max-width: 980px;
-}
 
 .header {
     max-height: 140px;
@@ -106,34 +103,34 @@ html{
 
 /*FORM*/
 .sub{
-	width: 100%;
+    width: 100%;
 }
 
 .info{
-	font-size: 30px;
+    font-size: 30px;
 }
 
 .info1{
-	font-size: 40px;
+    font-size: 40px;
 }
 
 .info2{
-	font-size: 21px;
+    font-size: 21px;
 }
 
 .input-margin{
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 .input-margin-submit{
-	margin-top: 15px;
+    margin-top: 15px;
 }
 
 /* TEAM */
 
 .team ul li{
-	list-style-type: none;
-	font-size: 19px;
+    list-style-type: none;
+    font-size: 19px;
 }
 
 /* PRICE */
@@ -170,4 +167,11 @@ html{
     padding-top: 40px;
     padding-bottom: 35px;
     background-color: #2c2c2c;
+}
+
+/*FOOTER*/
+
+footer p{
+    color: white;
+    font-size: 20px;
 }

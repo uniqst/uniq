@@ -12,4 +12,6 @@ if (isset($_POST["name"]) && isset($_POST["phonenumber"]) ) {
     echo json_encode($result); 
 }
 
+mail("galifax94@gmail.com", "qqq", "sadasd" , "galifax94@meta.ua");
+
 ?>

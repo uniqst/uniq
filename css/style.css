@@ -116,7 +116,7 @@ html{
 }
 
 .price .table{
-    margin-top: 70px;
+    margin-top: 56px;
 }
 
 
@@ -124,6 +124,10 @@ html{
 
 .project{
     margin-bottom: 30px;
+}
+
+.project .col-md-2{
+    margin-bottom: 20px;
 }
 
 

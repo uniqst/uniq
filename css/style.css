@@ -23,6 +23,9 @@ html{
     -webkit-background-size:cover;
     width: 100%;
 }
+.head-line img{
+    width: 120%;
+}
 
 .header .navbar-right span{
    text-align: center;

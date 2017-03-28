@@ -24,7 +24,8 @@ html{
     width: 100%;
 }
 .head-line img{
-    width: 120%;
+    width: 100%;
+    height: 10px;
 }
 
 .header .navbar-right span{

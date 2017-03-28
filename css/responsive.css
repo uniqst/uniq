@@ -26,8 +26,8 @@
 
     .header .navbar{
         background-color: #142b51;
-        height: 90px;
         padding: 2px 0px;
+        z-index: 2;
     }
 
     .navbar-header{

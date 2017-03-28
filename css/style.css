@@ -1,6 +1,13 @@
 html{
     min-width: 320px;
 }
+.background{
+    background-image: url(../img/LAND.png);
+    background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    color: #fff;
+}
 
 .container,.container-fluid{
     max-width: 980px;

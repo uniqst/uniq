@@ -12,7 +12,7 @@
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-
+   
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -242,15 +242,17 @@
             <div class="row">
                 <p class="text-uppercase info1">Остались вопросы?</p>
                 <p class="text-uppercase info2">получите бесплатную консультацию</p>
-                <form action="mail.php" method="post">
+                <form  method="post" id="ajax_form">
                     <div class="form-group input-margin">
-                        <input type="email" class="form-control" id="email" placeholder="Ваше имя" name="email">
+                        <input type="email" class="form-control" id="email" placeholder="Е-mail" name="name">
                     </div>
                     <div class="form-group input-margin">
-                        <input type="text" class="form-control" id="phone" placeholder="Ваш телефон" name="phone">
+                        <input type="text" class="form-control" id="phone" placeholder="Ваш телефон" name="phonenumber">
                     </div>
-                    <button type="submit" class="btn btn-danger sub input-margin-submit">Получить консультацию</button>
+                    <button type="submit" class="btn btn-danger sub input-margin-submit"  id="btn">Получить консультацию</button>
                 </form>
+
+    <div id="result_form"><div> 
 
             </div> <!-- .row -->
 
@@ -266,11 +268,11 @@
 </div><!--background-->
 </div><!--wrap-->
 
-
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/main.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>

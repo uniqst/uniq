@@ -16,7 +16,7 @@ function sendAjaxForm(result_form, ajax_form, url) {
         success: function(response) { //Данные отправлены успешно
         	result = jQuery.parseJSON(response);
         	document.getElementById(result_form).innerHTML = "Спасибо за вашу заявку, вскоре свами свяжутся";
-            $('#ajax_form').hide();
+             $('#ajax_form').animate({width: 'hide', height: 'hide'}, 1000); 
     	},
     	error: function(response) { // Данные не отправлены
     		document.getElementById(result_form).innerHTML = "Ошибка. Данные не отправленны.";

@@ -38,16 +38,12 @@ html{
     font-size: 15px;
 }
 
-
 .header .navbar{
-    background-color: #003366;
-<<<<<<< HEAD
+    background-image:repeating-linear-gradient(to right, rgb(15, 6, 119)0%, rgb(19, 52, 136)32.8%,rgb(19, 52, 136)63.8%,rgb(15, 6, 119)100%);
     background-size:cover;
     -moz-background-size:cover;
     -webkit-background-size:cover;
     /*height: 110px;*/
-=======
->>>>>>> origin/master
     padding: 2px 0px;
 }
 

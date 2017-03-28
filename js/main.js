@@ -15,7 +15,7 @@ function sendAjaxForm(result_form, ajax_form, url) {
         data: jQuery("#"+ajax_form).serialize(),  // Сеарилизуем объект
         success: function(response) { //Данные отправлены успешно
         	result = jQuery.parseJSON(response);
-        	document.getElementById(result_form).innerHTML = "Имя: "+result.name+"<br>Телефон: "+result.phonenumber;
+        	document.getElementById(result_form).innerHTML = "Спасибо за вашу заявку, вскоре свами свяжутся";
             $('#ajax_form').hide();
     	},
     	error: function(response) { // Данные не отправлены

@@ -1,6 +1,11 @@
 html{
     min-width: 320px;
 }
+
+.text-gold{
+    color: #FFD700;
+}
+
 .background{
     background-image: url(../img/LAND.png);
     background-size:cover;
@@ -40,13 +45,9 @@ html{
 
 .header .navbar{
     background-color: #003366;
-<<<<<<< HEAD
     background-size:cover;
     -moz-background-size:cover;
     -webkit-background-size:cover;
-    /*height: 110px;*/
-=======
->>>>>>> origin/master
     padding: 2px 0px;
 }
 

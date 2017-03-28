@@ -108,3 +108,25 @@ html{
 	list-style-type: none;
 	font-size: 19px;
 }
+
+/* PRICE */
+
+.price{
+    margin-bottom: 30px;
+}
+
+.price .table{
+    margin-top: 70px;
+}
+
+
+/* RPOJECT*/
+.project{
+    margin-bottom: 30px;
+}
+
+
+/* TEAM */
+.team{
+    margin-bottom: 30px;
+}

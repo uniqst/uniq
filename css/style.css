@@ -37,7 +37,10 @@ html{
 
 .header .navbar{
     background-color: #003366;
-    height: 110px;
+    background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    /*height: 110px;*/
     padding: 2px 0px;
 }
 
@@ -73,6 +76,7 @@ html{
 
 .banner{
     height: 400px;
+    margin-top: 50px;
 }
 
 .banner-text{

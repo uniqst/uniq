@@ -299,12 +299,12 @@
             <div class="row">
                 <p class="text-uppercase info1">Остались вопросы?</p>
                 <p class="text-uppercase info2">получите бесплатную консультацию</p>
-                <form role="form" id="contactForm">
+                <form action="mail.php" method="post">
                     <div class="form-group input-margin">
-                        <input type="email" class="form-control" id="email" placeholder="Ваше имя">
+                        <input type="email" class="form-control" id="email" placeholder="Ваше имя" name="email">
                     </div>
                     <div class="form-group input-margin">
-                        <input type="password" class="form-control" id="pass" placeholder="Ваш телефон">
+                        <input type="text" class="form-control" id="phone" placeholder="Ваш телефон" name="phone">
                     </div>
                     <button type="submit" class="btn btn-danger sub input-margin-submit">Получить консультацию</button>
                 </form>

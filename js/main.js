@@ -25,3 +25,6 @@ function sendAjaxForm(result_form, ajax_form, url) {
     	}
  	});
 }
+
+
+$("#phone").mask("+380 (99) 999-9999");

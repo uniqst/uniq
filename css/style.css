@@ -13,7 +13,7 @@ body{
     max-width: 980px;
 }
 
-.text-gold{
+.text-gold {
     color: #FFD700;
 }
 
@@ -53,15 +53,11 @@ body{
 
 .header .navbar{
     background-image:repeating-linear-gradient(to right, rgb(15, 6, 119)0%, rgb(19, 52, 136)32.8%,rgb(19, 52, 136)63.8%,rgb(15, 6, 119)100%);
+
     background-size:cover;
     -moz-background-size:cover;
     -webkit-background-size:cover;
     /*height: 110px;*/
-    background-color: #003366;
-    background-size:cover;
-    -moz-background-size:cover;
-    -webkit-background-size:cover;
-    padding: 2px 0px;
 }
 
 .header .navbar-brand img{
@@ -108,7 +104,6 @@ body{
 }
 .banner p {
     margin-top: 50px;
-    color: #fff;
 }
 .banner-text{
 
@@ -151,13 +146,27 @@ body{
    -webkit-background-size: cover;
    -o-background-size: cover;
    -moz-background-size: cover;
+    font-size: 16px;
 }
 
 
 
-.table{
+.price .table{
     margin-top: 56px;
-    }
+    font-size:16px;
+
+}
+
+.price .table td{
+    border: 0;
+
+}
+
+.price .table td:nth-child(2){
+    text-align: right;
+
+}
+
 /*FORM*/
 .sub{
     width: 100%;

@@ -28,3 +28,14 @@ function sendAjaxForm(result_form, ajax_form, url) {
 
 
 $("#phone").mask("+380 (99) 999-9999");
+
+
+// News Post Carousel
+$("#testimonail-carousel").owlCarousel({
+	autoPlay: false, //Set AutoPlay to 3 seconds
+	items : 3,
+	stopOnHover : true,
+	navigation : false, // Show next and prev buttons
+	pagination : true
+});
+	

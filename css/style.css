@@ -104,7 +104,8 @@ body{
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    min-height: 400px;  
+    min-height: 400px;
+    box-shadow: 0px -47px 25px -23px #003366 inset;  
 }
 .banner p {
     margin-top: 50px;
@@ -136,6 +137,7 @@ body{
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
+    box-shadow: 0px 40px 25px -23px #003366 inset, 0px -40px 25px -23px #003366 inset;
 
 }
 
@@ -151,6 +153,7 @@ body{
    -webkit-background-size: cover;
    -o-background-size: cover;
    -moz-background-size: cover;
+   box-shadow: 0px 40px 25px -23px #003366 inset, 0px -47px 25px -23px #003366 inset;
 }
 
 
@@ -190,6 +193,7 @@ body{
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
+    box-shadow: 0px 40px 25px -23px #003366 inset, 0px -47px 25px -23px #003366 inset;
 }
 
 .input-margin-submit{
@@ -218,6 +222,7 @@ body{
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
+    box-shadow: 0px 40px 25px -23px #003366 inset, 0px -47px 25px -23px #003366 inset;
 }
 .team-block{
     margin-top: 50px;
@@ -235,6 +240,7 @@ body{
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
+    box-shadow: 0px 40px 25px -23px #003366 inset;
 
 }            
 .sub{

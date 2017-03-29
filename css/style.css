@@ -1,11 +1,5 @@
 html{
     min-width: 320px;
-}
-.background{
-    background-image: url(../img/LAND.png);
-    background-size:cover;
-    -moz-background-size:cover;
-    -webkit-background-size:cover;
     color: #fff;
 }
 
@@ -77,18 +71,24 @@ html{
     border: none;
 }
 
+            /*ABOUT-start*/
 .banner{
-    height: 400px;
-    margin-top: 50px;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    height: 400px;  
 }
-
+.banner p {
+    margin-top: 50px;
+    color: #fff;
+}
 .banner-text{
 
     width: 270px;
 
 }
-
-
 .banner-logo{
     text-align: center;
 
@@ -100,8 +100,91 @@ html{
     text-align: center;
 
 }
+            /*ABOUT-end*/
+            /*STEP-start*/
 
-/*FORM*/
+.step{
+    height: 350px;
+    background-image: url(../img/step.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+            /*STEP-end*/
+
+            /* PRICE-start */
+
+.price{
+    color: #fff;
+   height: 360px;
+   background-image: url(../img/price.jpg);
+   background-size: cover;
+   -webkit-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+}
+
+.table{
+    margin-top: 56px;
+}
+            /*PRICE-end*/
+
+            /* RPOJECT-start */
+
+.project{
+    height: 360px;
+    color: #fff;
+    background-image: url(../img/portfolio.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+.col-md-2{
+    margin-bottom: 20px;
+}
+.portfolio{
+    margin-top: 50px;
+}
+            /*PROJECT-end*/
+            /* TEAM-start */
+
+.team ul li{
+	list-style-type: none;
+	font-size: 19px;
+}
+.team{
+    height: 360px;
+    color: #fff;
+    background-image: url(../img/team.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.team-block{
+    margin-top: 50px;
+}
+    
+            /*TEAM-end*/
+
+            /*FORM-start*/
+
+.form{
+    height: 370px;
+    color: #fff;
+    background-image: url(../img/call-back.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+}            
 .sub{
 	width: 100%;
 }
@@ -126,40 +209,7 @@ html{
 	margin-top: 15px;
 }
 
-/* TEAM */
-
-.team ul li{
-	list-style-type: none;
-	font-size: 19px;
-}
-
-/* PRICE */
-
-.price{
-    margin-bottom: 30px;
-}
-
-.price .table{
-    margin-top: 56px;
-}
-
-
-/* RPOJECT */
-
-.project{
-    margin-bottom: 30px;
-}
-
-.project .col-md-2{
-    margin-bottom: 20px;
-}
-
-
-/* TEAM */
-.team{
-    margin-bottom: 30px;
-}
-
+            /*Form-end*/
 
 /* FOOTER */
 

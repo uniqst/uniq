@@ -90,7 +90,7 @@ html{
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    height: 400px;  
+    min-height: 400px;  
 }
 .banner p {
     margin-top: 50px;
@@ -115,7 +115,7 @@ html{
             /*ABOUT-end*/
             /*STEP-start*/
 .step{
-    height: 350px;
+    min-height: 350px;
     background-image: url(../img/step.jpg);
     background-size: cover;
     -webkit-background-size: cover;
@@ -130,7 +130,7 @@ html{
 
 .price{
     color: #fff;
-   height: 360px;
+   min-height: 360px;
    background-image: url(../img/price.jpg);
    background-size: cover;
    -webkit-background-size: cover;
@@ -166,7 +166,7 @@ html{
             /* RPOJECT-start */
 
 .project{
-    height: 400px;
+    min-height: 400px;
     color: #fff;
     background-image: url(../img/portfolio.jpg);
     background-size: cover;
@@ -193,7 +193,7 @@ html{
     font-size: 19px;
 }
 .team{
-    height: 360px;
+    min-height: 360px;
     color: #fff;
     background-image: url(../img/team.jpg);
     background-size: cover;
@@ -210,7 +210,7 @@ html{
             /*FORM-start*/
 
 .form{
-    height: 370px;
+    min-height: 370px;
     color: #fff;
     background-image: url(../img/call-back.jpg);
     background-size: cover;

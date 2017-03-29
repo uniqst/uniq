@@ -34,6 +34,11 @@
 
         height: 86px;
     }
+
+    .form .row {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -46,6 +51,8 @@
     .form .info2{
         font-size: 21px;
     }
+
+
 
 }
 

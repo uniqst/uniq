@@ -74,6 +74,9 @@ html{
     width: 140px;
 }
 
+.navbar{
+    margin-bottom: 0;
+}
 
 .navbar-header{
     height: 106px;
@@ -113,6 +116,7 @@ html{
 
 }
             /*ABOUT-end*/
+
             /*STEP-start*/
 .step{
     min-height: 350px;
@@ -137,6 +141,8 @@ html{
    -o-background-size: cover;
    -moz-background-size: cover;
 }
+
+
 
 .table{
     margin-top: 56px;

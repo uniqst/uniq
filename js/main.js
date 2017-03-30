@@ -38,4 +38,11 @@ $("#testimonail-carousel").owlCarousel({
 	navigation : false, // Show next and prev buttons
 	pagination : true
 });
+
+
+
+
+
+
+
 	

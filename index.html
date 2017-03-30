@@ -139,7 +139,7 @@
     </section><!--price-->
 
     <section class="project">
-<div class="container wow fadeInUp" data-wow-offset="150">
+<div class="container project-animation" >
     <div class="portfolio">
             <div class="col-md-2 col-xs-4 text-center"><img
                     src="http://www.zooclub.ru/skat/img.php?w=700&h=700&img=./attach/5880.jpg" width="100%"></div>
@@ -292,6 +292,18 @@
        </div>
     </footer>
 </div><!--wrap-->
+<script>
+    $(window).scroll(function() {
+    $('.project-animation').each(function(){
+      var blockPos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (blockPos < topOfWindow+100) {
+        $(this).addClass(' fadeInUp');
+      }
+    });
+  });
+
+</script>
 
  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/jquery.maskedinput.js"></script>

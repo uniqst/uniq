@@ -5,17 +5,8 @@ $( document ).ready(function() {
 			return false; 
 		}
 	);
-}); //document.ready
-//animate scroll	
-	
-    $('.project-animation').each(function(){
-      var blockPos = $(this).offset().top;
-      var topOfWindow = $(window).scrollTop();
-      if (blockPos < topOfWindow+100) {
-        $(this).addClass(' fadeInUp');
-      }
-    });
-  
+}); 
+
 
  
 function sendAjaxForm(result_form, ajax_form, url) {

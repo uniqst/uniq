@@ -68,7 +68,7 @@
 
     <section class="banner">
 
-        <div class="container wow zoomIn" data-wow-offset="150">
+        <div class="container wow zoomIn data-wow-offset="100"">
           <div class="row">
           <div class="col-sm-6 text-gold">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto autem dignissimos enim eum eveniet fugit ipsa nam nobis non odio quaerat, quas quod, recusandae, reiciendis sunt tempore temporibus vero!
@@ -90,7 +90,7 @@
     </section><!--step-->
 
     <section class="price">
-        <div class="container wow rotateInDownLeft" data-wow-offset="150">
+        <div class="container wow bounceInLeft data-wow-offset="500"">
             <div class="row">
                 <div class="col-md-7">
                     <h2>Цены на разработку</h2>
@@ -139,7 +139,7 @@
     </section><!--price-->
 
     <section class="project">
-<div class="container project-animation" >
+<div class="container wow flipInX data-wow-offset="500"">
     <div class="portfolio">
             <div class="col-md-2 col-xs-4 text-center"><img
                     src="http://www.zooclub.ru/skat/img.php?w=700&h=700&img=./attach/5880.jpg" width="100%"></div>
@@ -172,7 +172,7 @@
 
     <section id="testimonials" class="team section-area lite testimonails-section text-center our-team">
         <!-- Nested Container Starts -->
-        <div class="container wow fadeInRight" data-wow-offset="150">
+        <div class="container wow fadeInRight data-wow-offset="500"">
             <h2 class="text-dark-color" style="margin-bottom: 30px">наша команда спецiалiстів</h2>
 
 
@@ -256,7 +256,7 @@
     </section>
  -->
     <section class="form">
-        <div class="container wow rubberBand" data-wow-offset="150" style="max-width: 500px;">
+        <div class="container wow rubberBand data-wow-offset="500"" style="max-width: 500px;">
             <div class="row">
                 <p class="text-uppercase info1 text-center">Остались вопросы?</p>
                 <p class="text-uppercase info2 text-center">получите бесплатную консультацию</p>
@@ -292,26 +292,15 @@
        </div>
     </footer>
 </div><!--wrap-->
-<script>
-    $(window).scroll(function() {
-    $('.project-animation').each(function(){
-      var blockPos = $(this).offset().top;
-      var topOfWindow = $(window).scrollTop();
-      if (blockPos < topOfWindow+100) {
-        $(this).addClass(' fadeInUp');
-      }
-    });
-  });
-
-</script>
-
  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/jquery.maskedinput.js"></script>
 <script src="js/plugins/owl-carousel/owl.carousel.min.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/main.js"></script>
 <script src="js/wow.min.js"></script>
- <script>new WOW().init();</script>
+<script>
+ new WOW().init();
+</script>
 
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->

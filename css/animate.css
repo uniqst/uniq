@@ -237,8 +237,8 @@
 }
 
 .rubberBand {
-  -webkit-animation-name: rubberBand;
-  animation-name: rubberBand;
+  -webkit-animation: rubberBand 1s 1;
+  animation: rubberBand 1s 1;
 }
 
 @-webkit-keyframes shake {
@@ -1401,8 +1401,8 @@
 }
 
 .fadeInRight {
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
+  -webkit-animation: fadeInRight 1s 1;
+  animation: fadeInRight 1s 1;
 }
 
 @-webkit-keyframes fadeInRightBig {
@@ -1467,8 +1467,8 @@
 }
 
 .fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
+  -webkit-animation: fadeInUp 1s 1;
+  animation: fadeInUp 1s 1;
 }
 
 @-webkit-keyframes fadeInUpBig {
@@ -2246,8 +2246,8 @@
 }
 
 .rotateInDownLeft {
-  -webkit-animation-name: rotateInDownLeft;
-  animation-name: rotateInDownLeft;
+  -webkit-animation: rotateInDownLeft 1s 1;
+  animation: rotateInDownLeft 1s 1;
 }
 
 @-webkit-keyframes rotateInDownRight {
@@ -2722,8 +2722,8 @@
 }
 
 .zoomIn {
-  -webkit-animation-name: zoomIn;
-  animation-name: zoomIn;
+  -webkit-animation: zoomIn 1s 1;
+  animation: zoomIn 1s 1;
 }
 
 @-webkit-keyframes zoomInDown {

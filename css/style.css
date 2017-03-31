@@ -59,7 +59,6 @@ body{
     background: linear-gradient(45deg, #cc9933 10%, #ffcc66 33%, #cccc66 66%, #cc9933 95%);
     background-clip: text;
     -webkit-background-clip: text;
-    text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
 }
 
@@ -134,8 +133,8 @@ body{
 }
 
 .banner-logo img{
-    margin: auto;
-    height: 270px;
+    margin: 30px auto;
+    height: 100%;
     text-align: center;
 
 }
@@ -189,7 +188,11 @@ body{
     text-align: right;
 
 }
-
+.price-info{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
 /*FORM*/
 .sub{
     width: 100%;

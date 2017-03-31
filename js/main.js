@@ -5,7 +5,13 @@ $( document ).ready(function() {
 			return false; 
 		}
 	);
-}); 
+
+}); //documen.ready
+$(".price-cell p").hide().prev().click(function() {
+	$(this).parents(".price-cell").find("p").not(this).slideUp().prev().removeClass("active");
+	$(this).next().not(":visible").slideDown().prev().addClass("active");
+});
+
 
 
  

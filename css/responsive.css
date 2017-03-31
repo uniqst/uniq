@@ -13,6 +13,9 @@
         background-image:repeating-linear-gradient(to right, rgb(0, 0, 51)0%, rgb(0, 89, 179)32.8%,rgb(0, 89, 179)63.8%,rgb(0, 0, 51)100%);;
         width: 100%;
     }
+    .header ul li:hover{
+        transform: scale(1, 1);
+    }
 
     .header ul{
         margin-top: 0;

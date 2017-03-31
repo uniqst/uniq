@@ -10,7 +10,7 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
     .header ul li{
-        background-color: #152f58;
+        background-image:repeating-linear-gradient(to right, rgb(0, 0, 51)0%, rgb(0, 89, 179)32.8%,rgb(0, 89, 179)63.8%,rgb(0, 0, 51)100%);;
         width: 100%;
     }
 
@@ -25,7 +25,7 @@
     }
 
     .header .navbar{
-        background-color: #142b51;
+        background-image:repeating-linear-gradient(to right, rgb(0, 0, 51)0%, rgb(0, 89, 179)32.8%,rgb(0, 89, 179)63.8%,rgb(0, 0, 51)100%);
         padding: 2px 0px;
         z-index: 2;
     }

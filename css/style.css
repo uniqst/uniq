@@ -259,6 +259,12 @@ body{
 .team-block{
     margin-top: 50px;
 }
+.img-responsive{
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 150px;
+    margin: auto;
+}
     
             /*TEAM-end*/
 

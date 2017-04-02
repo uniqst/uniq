@@ -120,7 +120,12 @@ body{
     box-shadow: 0px -47px 25px -23px #003366 inset;  
 }
 .banner p {
-    margin-top: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+    background: linear-gradient(45deg, #cc9933 10%, #ffcc66 33%, #cccc66 66%, #cc9933 95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .banner-text{
 
@@ -157,23 +162,26 @@ body{
             /* PRICE-start */
 
 .price{
-    color: #fff;
+   color: #fff;
    min-height: 360px;
    background-image: url(../img/price.jpg);
    background-size: cover;
    -webkit-background-size: cover;
    -o-background-size: cover;
    -moz-background-size: cover;
-
     font-size: 16px;
-
    box-shadow: 0px 40px 25px -23px #003366 inset, 0px -47px 25px -23px #003366 inset;
-
+   padding-top: 80px;
 }
 
+.cost {
+    background: linear-gradient(45deg, #cc9933 10%, #ffcc66 33%, #cccc66 66%, #cc9933 95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-
-.price .table{
+/*.price .table{
     margin-top: 56px;
     font-size:16px;
 
@@ -187,11 +195,27 @@ body{
 .price .table td:nth-child(2){
     text-align: right;
 
-}
+}*/
 .price-info{
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    white-space: nowrap;
+    border: 1px solid #ffcc66;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: linear-gradient(to right, rgba(204, 153, 51, 0.9) 10%, rgba(255, 204, 102, 0.4) 33%, rgba(204, 204, 102, 0.1) 66%, rgba(204, 153, 51, 0) 95%);
+}
+.price-info h5{
+    font-size: 20px;
+}
+.price-aco {
+    border: 1px solid #ffcc66;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px 15px;
+    background-image:repeating-linear-gradient(to right, rgba(0, 0, 51, 0.9)0%, rgba(0, 89, 179, 0.4)32.8%,rgba(0, 89, 179, 0.4)63.8%,rgba(0, 0, 51, 0.9)100%);
 }
 /*FORM*/
 .sub{
@@ -242,6 +266,15 @@ body{
             /*PROJECT-end*/
             /* TEAM-start */
 
+.text-dark-color{
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #cc9933 10%, #ffcc66 33%, #cccc66 66%, #cc9933 95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+}            
+
 .team ul li{
     list-style-type: none;
     font-size: 19px;
@@ -264,6 +297,14 @@ body{
     max-width: 150px;
     border-radius: 150px;
     margin: auto;
+}
+.glyphicon{
+    font-size: 150px;
+    background: linear-gradient(45deg, #cc9933 10%, #ffcc66 33%, #cccc66 66%, #cc9933 95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
     
             /*TEAM-end*/
